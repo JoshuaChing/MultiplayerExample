@@ -17,8 +17,6 @@ var socketio,
 
 ////GAME INITIALISATION////
 function init(){
-	//connect to port
-	socket = io.connect("http://10.22.7.110:8080")
 
 	//canvas variables
 	width = 500;
@@ -34,6 +32,8 @@ function init(){
 	localPlayer = new Player(setUsername, 0, 0);
 	remotePlayers = []
 
+	//connect to port
+	socket = io.connect("http://10.22.7.110:8080")
 	setSocketEventHandlers();
 
 }
