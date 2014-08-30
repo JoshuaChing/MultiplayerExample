@@ -6,3 +6,5 @@ This is a real time multiplayer example application using node.js, socket.io, an
 Screenshot:
 ![](https://raw.githubusercontent.com/JoshuaChing/RealTimeMultiplayerExample/master/screenshots/screenshot1.png)
 
+Enjoy!
+
