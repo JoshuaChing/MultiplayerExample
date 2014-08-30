@@ -1,4 +1,4 @@
-RealTimeMultiplayerGame
+Real Time Multiplayer Example
 =======================
 
 This is a real time multiplayer sample application using node.js, socket.io, and canvas.
